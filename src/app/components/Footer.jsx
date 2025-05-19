@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaInstagram, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
@@ -18,18 +19,18 @@ export default function Footer() {
 
           {/* Links */}
           <div className="flex flex-wrap justify-center md:justify-start space-x-4 mb-4 md:mb-0">
-            <a href="#about" className="hover:underline">
+            <Link href="#about" className="hover:underline">
               Über uns
-            </a>
-            <a href="#products" className="hover:underline">
+            </Link>
+            <Link href="#products" className="hover:underline">
               Produkte
-            </a>
-            <a href="#blog" className="hover:underline">
+            </Link>
+            <Link href="#blog" className="hover:underline">
               Blog
-            </a>
-            <a href="#contact" className="hover:underline">
+            </Link>
+            <Link href="#contact" className="hover:underline">
               Kommunikation
-            </a>
+            </Link>
           </div>
 
           {/* Contact Info */}
@@ -39,15 +40,15 @@ export default function Footer() {
             <p>96050 Bamberg</p>
             <p>Deutschland</p>
             <p>
-              <a href="tel:+491633372113" className="hover:underline">
+              <Link href="tel:+491633372113" className="hover:underline">
                 +49 163 3372113
-              </a>
+              </Link>
             </p>
           </div>
 
-          {/* Instagram Icon */}
+          {/* Social Icons */}
           <div className="flex mt-4 md:mt-0 md:ml-4">
-            <a
+            <Link
               href="https://www.instagram.com/shailagmbh"
               target="_blank"
               rel="noopener noreferrer"
@@ -56,8 +57,8 @@ export default function Footer() {
               title="Visit our Instagram page"
             >
               <FaInstagram size={24} className="mr-2" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="mailto:info@shailagmbh.de"
               target="_blank"
               rel="noopener noreferrer"
@@ -66,17 +67,17 @@ export default function Footer() {
               title="Send us an email"
             >
               <FaEnvelope size={24} className="mr-2" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://wa.me/491633372113"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-gray-400 transition-colors duration-300"
-              aria-label="Send us an email"
-              title="Send us an email"
+              aria-label="Chat with us on WhatsApp"
+              title="Chat with us on WhatsApp"
             >
               <FaWhatsapp size={24} className="mr-2" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
