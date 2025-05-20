@@ -74,7 +74,7 @@ const Faq = () => {
                 Übernehmt ihr die Lizenzierung meiner Verpackung?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                Ja, Better-Pack kann die Entsorgungs- und Lizenzgebühren für
+                Ja, Shaila kann die Entsorgungs- und Lizenzgebühren für
                 Dich übernehmen. Wenn Du uns mit der Lizenzierung Deiner
                 Verpackungen beauftragst, übernehmen wir die Gebührenabführung
                 und die gesetzliche Meldung an die Zentrale Stelle. Das
