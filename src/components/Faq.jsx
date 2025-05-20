@@ -7,9 +7,9 @@ import {
 
 const Faq = () => {
   return (
-    <div className="container mx-auto px-4 py-8 text-left">
+    <div className="container mx-auto px-0 py-0 md:px-3 md:py-4 text-left">
       <div
-        className="flex flex-col items-start lg:flex-row justify-center items-start gap-8 bg-gray-100 p-20 rounded-lg"
+        className="flex flex-col items-start lg:flex-row justify-center gap-8 bg-gray-100 p-6 md:p-20 rounded-lg"
         style={{ minHeight: "300px" }}
       >
         {/* Left Section */}
@@ -27,7 +27,7 @@ const Faq = () => {
           </span>
         </div>
 
-        <div className="w-full lg:w-1/2 bg-gray-200 p-8 rounded-xl" >
+        <div className="w-full lg:w-1/2 bg-gray-200 p-8 rounded-xl">
           <Accordion type="multiple" collapsible className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-lg font-medium">
