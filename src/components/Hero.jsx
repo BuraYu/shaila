@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[700px] bg-black mb-20">
+    <section className="relative w-full h-[700px] bg-black mb-10">
       <Image
         src={packagingHeroImage}
         alt="Clean packaging products display"
