@@ -1,4 +1,5 @@
 import Main from "../components/Main";
+import ProductCategory from "../components/ProductCategory";
 
 export default function Home() {
   return (
