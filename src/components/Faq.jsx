@@ -9,11 +9,11 @@ const Faq = () => {
   return (
     <div className="container mx-auto px-4 py-8 text-left">
       <div
-        className="flex flex-col lg:flex-row justify-center items-start gap-8 bg-gray-100 p-6 rounded-lg"
-        style={{ minHeight: "500px" }}
+        className="flex flex-col items-start lg:flex-row justify-center items-start gap-8 bg-gray-100 p-20 rounded-lg"
+        style={{ minHeight: "300px" }}
       >
         {/* Left Section */}
-        <div className="lg:w-1/2 self-center">
+        <div className="lg:w-1/2">
           <h1 className="text-3xl font-bold mb-4">FAQ</h1>
           <p className="text-gray-700 mb-4">
             In unserer FAQ findest Du Antworten auf die wichtigsten Fragen zu
@@ -27,8 +27,8 @@ const Faq = () => {
           </span>
         </div>
 
-        <div className="w-full lg:w-1/2 self-center">
-          <Accordion type="single" collapsible className="w-full">
+        <div className="w-full lg:w-1/2 bg-gray-200 p-8 rounded-xl" >
+          <Accordion type="multiple" collapsible className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-lg font-medium">
                 Wie lange dauert die Lieferung?
@@ -74,12 +74,12 @@ const Faq = () => {
                 Übernehmt ihr die Lizenzierung meiner Verpackung?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                Ja, Shaila kann die Entsorgungs- und Lizenzgebühren für
-                Dich übernehmen. Wenn Du uns mit der Lizenzierung Deiner
-                Verpackungen beauftragst, übernehmen wir die Gebührenabführung
-                und die gesetzliche Meldung an die Zentrale Stelle. Das
-                bedeutet, Du musst Dich um nichts kümmern – wir arbeiten bereits
-                mit zugelassenen Systembetreibern zusammen, um die gesetzlichen
+                Ja, Shaila kann die Entsorgungs- und Lizenzgebühren für Dich
+                übernehmen. Wenn Du uns mit der Lizenzierung Deiner Verpackungen
+                beauftragst, übernehmen wir die Gebührenabführung und die
+                gesetzliche Meldung an die Zentrale Stelle. Das bedeutet, Du
+                musst Dich um nichts kümmern – wir arbeiten bereits mit
+                zugelassenen Systembetreibern zusammen, um die gesetzlichen
                 Anforderungen zu erfüllen. Die entsprechenden Kosten für die
                 Lizenzierung werden auf Deiner Rechnung transparent ausgewiesen.
                 Wichtig: Eine rückwirkende Lizenzierung ist bei uns nicht
