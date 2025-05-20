@@ -33,7 +33,7 @@ const ProductCategory = () => {
     <MaxWidthWrapper>
       <div className="mb-20 md:mx-20 mx-5">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-800">
+          <h1 className="text-xl sm:text-2xl font-bold text-gray-800">
             Einwegverpackungen für die Gastronomie
           </h1>
           <div className="self-end">
@@ -65,7 +65,7 @@ const ProductCategory = () => {
 
       <div className="mb-20 md:mx-20 mx-5">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-800">
+          <h1 className="text-xl sm:text-2xl font-bold text-gray-800">
             Du suchst praktische & günstige Gastroverpackungen?
           </h1>
           <div className="self-end">
