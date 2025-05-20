@@ -24,11 +24,11 @@ const Hero = () => {
         </p>
 
         {/* Buttons  */}
-        <div className="mt-8 flex flex-col sm:flex-row gap-4">
-          <Button className="bg-gray-800 text-white hover:bg-gray-700">
+        <div className="mt-8 flex flex-row sm:flex-row gap-4">
+          <Button className="bg-gray-800 text-white hover:bg-gray-700 p-5">
             Produkte
           </Button>
-          <Button className="bg-transparent text-white hover:bg-white hover:text-black border">
+          <Button className="bg-transparent text-white hover:bg-white hover:text-black border p-5">
             Zum Katalog
           </Button>
         </div>

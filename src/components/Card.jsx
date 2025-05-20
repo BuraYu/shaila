@@ -16,7 +16,7 @@ const Card = ({ image, product }) => {
         </div>
         <h3
           style={{ textShadow: "1px 1px 2px black" }}
-          className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-2xl text-shadow"
+          className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-white font-bold  text-3xl md:text-2xl text-shadow"
         >
           {product}
         </h3>
