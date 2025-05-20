@@ -67,7 +67,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div
-          className={`absolute right-0 w-full md:hidden bg-gray-700 z-10 transition-all duration-500 ease-in-out transform ${
+          className={`absolute right-0 w-full md:hidden bg-gray-700 z-10 transition-all duration-300 ease-in-out transform ${
             isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
           }`}
         >

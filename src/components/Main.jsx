@@ -27,8 +27,10 @@ const Main = () => {
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <Button className="bg-gray-800 text-white hover:bg-gray-700">
             Produkte
-          </Button>{" "}
-          <Button variant="secondary">Zum Katalog</Button>
+          </Button>
+          <Button className="bg-transparent text-white hover:bg-white hover:text-black border">
+            Zum Katalog
+          </Button>
         </div>
       </div>
     </section>
