@@ -1,7 +1,9 @@
+import Sidebar from "./components/Sidebar";
+
 const Products = () => {
   return (
     <div>
-      <h1>Products page</h1>
+      <Sidebar />
     </div>
   );
 };
