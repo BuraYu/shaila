@@ -12,6 +12,11 @@ export default function Sidebar({ onSelectCategory }) {
     return () => document.body.classList.remove("overflow-hidden");
   }, [open]);
 
+  const hamburgerMenuClick = (test) => {
+    setOpen(false);
+    onSelectCategory(test);
+  };
+
   return (
     <>
       <aside
@@ -24,7 +29,7 @@ export default function Sidebar({ onSelectCategory }) {
         <ul className="space-y-2 flex-1 overflow-y-auto">
           <li>
             <button
-              onClick={() => onSelectCategory(null)}
+              onClick={() => hamburgerMenuClick(null)}
               className="flex justify-between items-center px-3 py-2 w-full text-left rounded hover:bg-gray-100"
             >
               <span>Alle Produkte</span>
@@ -34,7 +39,7 @@ export default function Sidebar({ onSelectCategory }) {
           {data.map((cat, index) => (
             <li key={index}>
               <button
-                onClick={() => onSelectCategory(cat.slug)}
+                onClick={() => hamburgerMenuClick(cat.slug)}
                 className="flex justify-between items-center px-3 py-2 w-full text-left rounded hover:bg-gray-100"
               >
                 <span>{cat.name}</span>

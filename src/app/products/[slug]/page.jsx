@@ -4,7 +4,7 @@ import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import data from "@/lib/data";
 
-export default function ProductDetail({ params }) {
+export default function ProductDetail({}) {
   const { slug } = useParams();
   const router = useRouter();
 
