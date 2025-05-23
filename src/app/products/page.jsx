@@ -28,7 +28,6 @@ const Products = () => {
               ? data.find((c) => c.slug === selectedCategory)?.name
               : "Alle Produkte"}
           </h1>
-
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {displayedProducts.map((product, index) => (
               <Link
@@ -36,12 +35,15 @@ const Products = () => {
                 key={index}
                 className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden flex flex-col"
               >
-                {/* TODO Image update! */}
                 <div className="aspect-[4/3] bg-gray-100">
                   <img
-                    src="https://via.placeholder.com/300x225"
+                    src={`/images/${product.categorySlug}/${product.slug}.jpg`}
                     alt={product.title}
                     className="object-cover w-full h-full"
+                    onError={(e) => {
+                      e.target.onerror = null;
+                      // e.target.src = "https://via.placeholder.com/300x225";
+                    }}
                   />
                 </div>
 

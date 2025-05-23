@@ -6,6 +6,7 @@ const data = [
       {
         title: "Schaumstoff-Menübox mit 3 Fächern",
         slug: "foam-menu-box-3-compartments",
+        categorySlug: "foam-containers",
         Produktabmessungen: "125×124×28",
         "Menge im Beutel": 200,
         "Menge im Karton": 500,
@@ -17,6 +18,7 @@ const data = [
       {
         title: "Schaumstoff-Menübox mit 3 Fächern",
         slug: "foam-menu-box-3-compartments-2",
+        categorySlug: "foam-containers",
         Produktabmessungen: "114×103×57",
         "Menge im Beutel": 100,
         "Menge im Karton": 1500,
@@ -28,6 +30,7 @@ const data = [
       {
         title: "Schaumstoff-Menübox ohne Fächer",
         slug: "foam-menu-box-no-compartments",
+        categorySlug: "foam-containers",
         Produktabmessungen: "178×128×50",
         "Menge im Beutel": 50,
         "Menge im Karton": 1000,
@@ -39,6 +42,7 @@ const data = [
       {
         title: "Hamburgerbox aus Schaumstoff",
         slug: "foam-hamburger-box",
+        categorySlug: "foam-containers",
         Produktabmessungen: "111×101×39",
         "Menge im Beutel": 100,
         "Menge im Karton": 500,
@@ -50,6 +54,7 @@ const data = [
       {
         title: "Lunchbox aus Schaumstoff",
         slug: "foam-lunchbox",
+        categorySlug: "foam-containers",
         Produktabmessungen: "129×107×42",
         "Menge im Beutel": 50,
         "Menge im Karton": 1500,
@@ -61,6 +66,7 @@ const data = [
       {
         title: "Schaumstoff-Lunchbox Mini",
         slug: "foam-lunchbox-mini",
+        categorySlug: "foam-containers",
         Produktabmessungen: "110×147×42",
         "Menge im Beutel": 100,
         "Menge im Karton": 1500,
