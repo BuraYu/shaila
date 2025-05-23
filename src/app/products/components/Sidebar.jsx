@@ -20,7 +20,7 @@ export default function Sidebar({ onSelectCategory }) {
   return (
     <>
       <aside
-        className={`fixed top-0 left-0 h-full w-full sm:w-64 bg-white shadow-lg z-40 p-4 transition-transform duration-300
+        className={`fixed top-0 left-0 h-full w-full sm:w-74 bg-white shadow-lg z-40 p-4 transition-transform duration-300
         ${open ? "translate-x-0" : "-translate-x-full"} 
         lg:translate-x-0 lg:static lg:block flex flex-col`}
       >
