@@ -1,6 +1,7 @@
 import Image from "next/image";
 import packagingHeroImage from "../../public/packaging-hero.webp";
 import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -13,7 +14,6 @@ const Hero = () => {
         className="object-cover w-full h-full opacity-70"
       />
 
-      {/* Overlay */}
       <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center text-white">
         <h1 className="text-3xl md:text-5xl font-bold tracking-tight drop-shadow-lg max-w-3xl">
           Hochwertige Verpackungen für jede Branche
@@ -23,13 +23,22 @@ const Hero = () => {
           mehr.
         </p>
 
-        {/* Buttons  */}
         <div className="mt-8 flex flex-row sm:flex-row gap-4">
-          <Button className="bg-gray-800 text-white hover:bg-gray-700 p-5">
+          <Button
+            variant="default"
+            className="bg-gray-800 text-white hover:bg-gray-700 border p-5 cursor-pointer"
+          >
             Produkte
           </Button>
           <Button className="bg-transparent text-white hover:bg-white hover:text-black border p-5">
-            Zum Katalog
+            <a
+              href="/Produktkatalog-Shalia.pdf"
+              download="Produktkatalog-Shalia.pdf"
+              className="flex items-center gap-2"
+            >
+              <Download className="w-5 h-5" />
+              Zum Katalog
+            </a>
           </Button>
         </div>
       </div>
