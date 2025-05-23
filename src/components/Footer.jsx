@@ -19,16 +19,16 @@ export default function Footer() {
 
           {/* Links */}
           <div className="flex flex-wrap justify-center md:justify-start space-x-4 mb-4 md:mb-0">
-            <Link href="#about" className="hover:underline">
+            <Link href="/about" className="hover:underline">
               Über uns
             </Link>
-            <Link href="#products" className="hover:underline">
+            <Link href="/products" className="hover:underline">
               Produkte
             </Link>
-            <Link href="#blog" className="hover:underline">
+            <Link href="/blog" className="hover:underline">
               Blog
             </Link>
-            <Link href="#contact" className="hover:underline">
+            <Link href="/contact" className="hover:underline">
               Kommunikation
             </Link>
           </div>

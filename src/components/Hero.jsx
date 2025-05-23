@@ -2,6 +2,7 @@ import Image from "next/image";
 import packagingHeroImage from "../../public/packaging-hero.webp";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -24,12 +25,14 @@ const Hero = () => {
         </p>
 
         <div className="mt-8 flex flex-row sm:flex-row gap-4">
-          <Button
-            variant="default"
-            className="bg-gray-800 text-white hover:bg-gray-700 border p-5 cursor-pointer"
-          >
-            Produkte
-          </Button>
+          <Link href="/products">
+            <Button
+              variant="default"
+              className="bg-gray-800 text-white hover:bg-gray-700 border p-5 cursor-pointer"
+            >
+              Produkte
+            </Button>
+          </Link>
           <Button className="bg-transparent text-white hover:bg-white hover:text-black border p-5">
             <a
               href="/Produktkatalog-Shalia.pdf"
