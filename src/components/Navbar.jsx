@@ -14,27 +14,28 @@ const Navbar = () => {
     <nav className="bg-gray-800 text-white">
       <div className="container mx-auto px-4 flex justify-between items-center py-4">
         {/* Left Side */}
-        <div className="flex items-center">
+
+        <Link href="/" className="flex items-center">
           <img
             src="/shaila_logo-260-beyaz.png"
             alt="Shaila Logo"
             className="h-8 w-8 mr-2"
           />
           <span className="text-lg font-bold">Shaila GmbH</span>
-        </div>
+        </Link>
 
         {/* Right Side*/}
         <div className="hidden md:flex space-x-6">
-          <Link href="#about" className="hover:underline">
+          <Link href="/about" className="hover:underline">
             About Us
           </Link>
-          <Link href="#products" className="hover:underline">
+          <Link href="/products" className="hover:underline">
             Products
           </Link>
-          <Link href="#blog" className="hover:underline">
+          <Link href="/blog" className="hover:underline">
             Blog
           </Link>
-          <Link href="#contact" className="hover:underline">
+          <Link href="/contact" className="hover:underline">
             Contact
           </Link>
         </div>
