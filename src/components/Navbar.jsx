@@ -74,28 +74,28 @@ const Navbar = () => {
         >
           {" "}
           <Link
-            href="#about"
+            href="/about"
             className="block px-4 py-2 hover:bg-gray-600"
             onClick={() => setIsOpen(false)}
           >
             About Us
           </Link>
           <Link
-            href="#products"
+            href="/products"
             className="block px-4 py-2 hover:bg-gray-600"
             onClick={() => setIsOpen(false)}
           >
             Products
           </Link>
           <Link
-            href="#blog"
+            href="/blog"
             className="block px-4 py-2 hover:bg-gray-600"
             onClick={() => setIsOpen(false)}
           >
             Blog
           </Link>
           <Link
-            href="#contact"
+            href="/contact"
             className="block px-4 py-2 hover:bg-gray-600"
             onClick={() => setIsOpen(false)}
           >
