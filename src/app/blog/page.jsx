@@ -1,4 +1,3 @@
-// pages/blog.js
 import React from "react";
 
 const Blog = () => {
