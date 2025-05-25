@@ -68,7 +68,7 @@ const Contact = () => {
           </h2>
           <div className="flex flex-col h-full items-center justify-center">
             <p className="text-gray-600 mb-6 max-w-md">
-              Du kannst mich gerne über das Formular oder direkt über WhatsApp
+              Sie können uns gerne über das Formular oder direkt über WhatsApp
               oder E-Mail kontaktieren.
             </p>
             <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">

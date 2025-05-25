@@ -84,6 +84,7 @@ const data = [
       {
         title: "150 cc, auslaufsicherer flacher Deckel",
         slug: "150cc-leakproof-flat-lid",
+        categorySlug: "eco-sealed-containers",
         Produktabmessungen: "150×149×26",
         "Menge im Beutel": 200,
         "Menge im Karton": 1000,
@@ -95,6 +96,7 @@ const data = [
       {
         title: "250 cc, auslaufsicherer flacher Deckel",
         slug: "250cc-leakproof-flat-lid",
+        categorySlug: "eco-sealed-containers",
         Produktabmessungen: "169×146×20",
         "Menge im Beutel": 100,
         "Menge im Karton": 500,
@@ -106,6 +108,7 @@ const data = [
       {
         title: "375 cc, auslaufsicherer flacher Deckel",
         slug: "375cc-leakproof-flat-lid",
+        categorySlug: "eco-sealed-containers",
         Produktabmessungen: "163×101×48",
         "Menge im Beutel": 100,
         "Menge im Karton": 500,
@@ -117,6 +120,7 @@ const data = [
       {
         title: "500 cc, auslaufsicherer flacher Deckel",
         slug: "500cc-leakproof-flat-lid",
+        categorySlug: "eco-sealed-containers",
         Produktabmessungen: "101×131×60",
         "Menge im Beutel": 200,
         "Menge im Karton": 500,
@@ -128,6 +132,7 @@ const data = [
       {
         title: "500 cc, auslaufsicherer quadratischer flacher Deckel",
         slug: "500cc-leakproof-square-flat-lid",
+        categorySlug: "eco-sealed-containers",
         Produktabmessungen: "163×146×39",
         "Menge im Beutel": 200,
         "Menge im Karton": 1500,
@@ -139,6 +144,7 @@ const data = [
       {
         title: "500 cc, auslaufsicherer hoher Deckel",
         slug: "500cc-leakproof-high-lid",
+        categorySlug: "eco-sealed-containers",
         Produktabmessungen: "189×80×56",
         "Menge im Beutel": 200,
         "Menge im Karton": 500,
@@ -150,6 +156,7 @@ const data = [
       {
         title: "1750 cc, auslaufsicherer, flacher Deckel",
         slug: "1750cc-leakproof-flat-lid",
+        categorySlug: "eco-sealed-containers",
         Produktabmessungen: "200×115×22",
         "Menge im Beutel": 200,
         "Menge im Karton": 1000,
@@ -161,6 +168,7 @@ const data = [
       {
         title: "2000ccm Auslaufsicherer Flachdeckel",
         slug: "2000cc-leakproof-flat-lid",
+        categorySlug: "eco-sealed-containers",
         Produktabmessungen: "142×107×60",
         "Menge im Beutel": 50,
         "Menge im Karton": 500,
@@ -172,6 +180,7 @@ const data = [
       {
         title: "600 cc, auslaufsicherer, flacher Deckel",
         slug: "600cc-leakproof-flat-lid",
+        categorySlug: "eco-sealed-containers",
         Produktabmessungen: "175×126×56",
         "Menge im Beutel": 200,
         "Menge im Karton": 1500,

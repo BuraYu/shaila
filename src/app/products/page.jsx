@@ -41,8 +41,10 @@ const Products = () => {
                     alt={product.title}
                     className="object-cover w-full h-full"
                     onError={(e) => {
+                      console.log("Fallback triggered");
                       e.target.onerror = null;
-                      // e.target.src = "https://via.placeholder.com/300x225";
+                      e.target.src = `/images/foam-containers/image_coming_soon.png`; 
+
                     }}
                   />
                 </div>
