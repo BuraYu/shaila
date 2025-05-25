@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="flex flex-col items-center justify-center px-6 py-12 bg-gray-50">
       <div className="max-w-4xl text-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-6">About Us</h1>
+        <h1 className="text-4xl font-bold text-gray-800 mb-6">Über uns</h1>
         <img
           src="/shalia_about.jpg"
           alt="Shaila About"

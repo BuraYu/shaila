@@ -5,7 +5,7 @@ const Blog = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "Titel #1",
+      title: "Kundenerlebnis bei Verpackungen",
       date: "October 1, 2023",
       shortText:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vero, totam iure excepturi soluta rerum odit. Iusto similique esse iure?",
@@ -13,7 +13,7 @@ const Blog = () => {
     },
     {
       id: 2,
-      title: "Titel #2",
+      title: "Entwicklungen in der globalen Verpackungsindustrie",
       date: "September 25, 2023",
       shortText:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vero, totam iure excepturi soluta rerum odit. Iusto similique esse iure?",
@@ -21,7 +21,7 @@ const Blog = () => {
     },
     {
       id: 3,
-      title: "Titel #3",
+      title: "Innovative Ansätze im Verpackungsdesign",
       date: "September 15, 2023",
       shortText:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vero, totam iure excepturi soluta rerum odit. Iusto similique esse iure?",

@@ -27,16 +27,16 @@ const Navbar = () => {
         {/* Right Side*/}
         <div className="hidden md:flex space-x-6">
           <Link href="/about" className="hover:underline">
-            About Us
+            Über uns
           </Link>
           <Link href="/products" className="hover:underline">
-            Products
+            Produkte
           </Link>
           <Link href="/blog" className="hover:underline">
             Blog
           </Link>
           <Link href="/contact" className="hover:underline">
-            Contact
+            Kontakt
           </Link>
         </div>
 
@@ -78,14 +78,14 @@ const Navbar = () => {
             className="block px-4 py-2 hover:bg-gray-600"
             onClick={() => setIsOpen(false)}
           >
-            About Us
+            Über uns
           </Link>
           <Link
             href="/products"
             className="block px-4 py-2 hover:bg-gray-600"
             onClick={() => setIsOpen(false)}
           >
-            Products
+            Produkte
           </Link>
           <Link
             href="/blog"
@@ -99,7 +99,7 @@ const Navbar = () => {
             className="block px-4 py-2 hover:bg-gray-600"
             onClick={() => setIsOpen(false)}
           >
-            Contact
+            Kontakt
           </Link>
         </div>
       )}
